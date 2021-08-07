@@ -3,7 +3,9 @@ body {
   height: 100%;
   margin: 0;
 
-  font-size: 24px;
+  font-size: 24px; 
+
+  background: turquoise
 }
 
 #container {
@@ -44,4 +46,20 @@ body {
 #sidebar {
   border: 1px black dotted;
   background-color: white;
+}
+.profile {
+width: 300px;
+display: inline-block;  
+border-radius:15px; 
+vertical-align:top;
+
+
+} 
+
+#content p{
+display: inline-block; 
+vertical-align:top; 
+
+
+
 }
