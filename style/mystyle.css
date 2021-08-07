@@ -20,13 +20,13 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
 
-  background-color: darkgray;
+  background-color: rgb(243, 163, 13);
 
   margin: 10px;
   padding: 10px;
 
   font-size: 4em;
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -40,26 +40,45 @@ body {
   width: 90%;
   border: 1px black solid;
   margin: 2px;
-  margin: 15px;
+  margin: 15px; 
+  background-color: rgb(243, 163, 13); 
+  font-size:16px;
+  padding: 6px 0;
+  border-radius: 50%;
 }
 
+.sidebar-button:hover {
+background-color:rebeccapurple;
+color:white
+
+
+}
+
+
+
 #sidebar {
-  border: 1px black dotted;
-  background-color: white;
+ 
 }
 .profile {
-width: 300px;
-display: inline-block;  
+width: 300px; 
 border-radius:15px; 
-vertical-align:top;
+vertical-align:top; 
+float: left;
+margin-right:10px;
 
 
 } 
 
 #content p{
-display: inline-block; 
 vertical-align:top; 
 
+
+
+}  
+
+
+#lajay {
+font-family: cursive;
 
 
 }
