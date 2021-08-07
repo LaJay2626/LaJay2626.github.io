@@ -64,11 +64,14 @@ width: 300px;
 border-radius:15px; 
 vertical-align:top; 
 float: left;
-margin-right:10px;
-
-
+margin-right:10px; 
 } 
+.profile a {
+color:blue; 
+text-decoration: underline;
 
+
+}
 #content p{
 vertical-align:top; 
 

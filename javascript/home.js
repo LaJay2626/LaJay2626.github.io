@@ -26,4 +26,9 @@ document.getElementById("button-4").onclick = function () {
   document.getElementById("kamala").style.display="none"; 
   document.getElementById("michelle").style.display="none"; 
   document.getElementById("lajay").style.display="";
-};
+}; 
+
+function softwareEngineersDialog(){
+alert("software")
+
+}
